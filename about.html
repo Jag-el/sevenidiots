@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Degree Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #0033aa;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        form input[type="text"], form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #0044cc;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0033aa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Academic Degree Program</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#form">Student Form</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>About the Program</h2>
+            <p>Welcome to our academic program designed to help students achieve their degree goals. Our curriculum is tailored to provide a comprehensive education and practical experience.</p>
+        </section>
+
+        <section id="programs">
+            <h2>Degree Programs</h2>
+            <p>Our programs are designed to cater to a wide range of academic interests and career goals. Below is a brief overview of the degrees we offer:</p>
+            <ul>
+                <li><strong>Bachelor of Science in Computer Science:</strong> This program focuses on the fundamentals of computing, programming, and software development.</li>
+                <li><strong>Bachelor of Arts in History:</strong> Explore various historical periods, cultures, and methodologies to understand the past and its impact on the present.</li>
+                <li><strong>Master of Business Administration:</strong> Aimed at aspiring business leaders, this program covers management, finance, and strategic planning.</li>
+            </ul>
+        </section>
+
+        <section id="resources">
+            <h2>Student Resources</h2>
+            <p>We offer a range of resources to support your academic journey:</p>
+            <ul>
+                <li><strong>Library Access:</strong> Gain access to a vast collection of books, journals, and online resources.</li>
+                <li><strong>Academic Advising:</strong> Receive personalized guidance to help you navigate your academic path.</li>
+                <li><strong>Career Services:</strong> Get assistance with job search, internships, and career planning.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, please reach out to us:</p>
+            <p>Email: <a href="mailto:info@academicprogram.edu">info@academicprogram.edu</a></p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Academic Lane, Education City, ED 12345</p>
+        </section>
+
+        <section id="form">
+            <h2>Student Information Form</h2>
+            <form action="#" method="post">
+                <label for="student-name">Student Name:</label>
+                <input type="text" id="student-name" name="student-name" required>
+
+                <label for="syllabus">Syllabus:</label>
+                <textarea id="syllabus" name="syllabus" rows="4" required></textarea>
+
+                <label for="grade">Grade:</label>
+                <input type="text" id="grade" name="grade" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Academic Degree Program. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
